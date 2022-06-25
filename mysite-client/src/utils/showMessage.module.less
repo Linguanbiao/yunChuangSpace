@@ -1,0 +1,37 @@
+@import "../style/mix.less";
+@import "../style/var.less";
+.message {
+  .self-center();
+  z-index: 999; // z-index 属性设定了一个定位元素及其后代元素或 flex 项目的 z-order ， 当元素之间重叠的时候，z-index 较大的元素会覆盖较小的元素在上层进行显示
+  border-radius: 5px;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px 30px;
+  line-height: 2;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  //下面三个是为了做出动态的效果 ， 让元素一开始是透明的且在正中间位置的下方
+  transition: 0.5s;
+  transform: translate(-50%, -50%) translateY(15px);
+  opacity: 0;
+}
+.message-success {
+  //消息成功的样式
+  background: @success;
+}
+.message-info {
+  background: @primary; // 消息通知样式
+}
+
+.message-error {
+  background: @danger; // 消息错误样式
+}
+
+.message-warn {
+  background: @warn; // 提醒的消息样式
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 7px;
+}

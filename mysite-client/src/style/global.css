@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #6b9eee;
+}
+html {
+  color: #373737;
+  font-family: "-apple-system", "BlinkMacSystemFont", "Roboto", "Helvetica Neue", "微软雅黑", "sans-serif";
+  overflow: hidden;
+}
+body {
+  overflow: hidden;
+  margin: 0;
+}
