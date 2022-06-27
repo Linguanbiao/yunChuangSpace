@@ -3,11 +3,11 @@
 
 > 项目已经部署上线
 
-> 前台展示地址：www.yunchuang.site
+> 前台展示ip地址：120.24.186.61
 
->后台管理系统地址：www.yunchaung.site/admin
+> 后台管理系统地址：120.24.186.61/admin
 
->项目技术栈：Vue + ElementUI + Vue-Router + Vuex +  Less + ES6 + H5 + Axios + MockJS + MongoDB + Nginx
+> 项目技术栈：Vue + ElementUI + Vue-Router + Vuex +  Less + ES6 + H5 + Axios + MockJS + MongoDB + Nginx
 
 # 目录
 ## background-system 
